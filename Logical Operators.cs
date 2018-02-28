@@ -21,3 +21,36 @@ if (Input.GetKey(KeyCode.LeftShift) && (Input.GetKey(KeyCode.W)))
 
 //This code would would let you press W or the up button to move forward
 if (Input.GetKey(KeyCode.W) || (Input.GetKey(KeyCode.UpArrow)))
+
+//This is how && works
+
+true && true == true
+true && false == false
+false && true == false
+false && false == false 
+
+//This is how || works
+
+true || true == true
+true || false == true
+false || true == true
+false || false == false
+
+//Some more && examples
+if (condition1 == true && condition2 == false);
+{
+    Debug.Log("Failure");
+}
+
+if (condition1 == true && condition2 == true);
+    Debug.log("Success!")
+
+//Some more || examples
+if (raining == true || snow == true);
+{
+    Debug.Log("Map is slippery");
+}
+if (raining == false || snow == false);
+{
+    Debug.Log("Map is fine");
+} 
